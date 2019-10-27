@@ -49,6 +49,7 @@ body {
 	color: #222222;
 	}
 	
+	
 .prebox1 {
 	margin: auto;
 	font-family: "verdana";
@@ -61,4 +62,18 @@ body {
 	line-height: 150%;
 	color: #555555;
 	}
+	
+.outputbox1 {
+	margin: auto;
+	font-family: "Courier";
+	font-size: 18px;
+	padding: 12px;
+	font-weight: normal;
+	width: 80%;
+	align: center;
+	color: #222222;
+	font-style: italic;
+	}	
+	
+	
 	
