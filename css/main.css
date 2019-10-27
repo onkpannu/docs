@@ -1,7 +1,64 @@
 body {
-    margin: 60px auto;
-    width: 90%;
-    font-size: 1.5em;
-    color: #333;
+	line-height: 100%;
+	font-family: "verdana";
+	font-size: 20px;
+	color: #333;
+	width: 100%;
+	margin: auto;
 }
-.code {color: blue; }
+
+	
+.top1 {
+
+	font-family: "verdana";
+	font-size: 24px;
+	background: #222222;
+	border: 1px solid #c0c0c0;
+	padding: 50px;
+	font-weight: normal;
+	width: 100%;
+	color: #f0f0f0;
+	padding: 20px;
+	text-align: center;
+	}
+	
+		
+.top2 {
+
+	margin: auto;
+	font-family: "verdana";
+	font-size: 30px;
+	padding-top: 30px;
+	font-weight: bold;
+	width: 80%;
+	align: center;
+	line-height: 150%;
+	color: #555555;
+	}
+	
+.codebox1 {
+	margin: auto;
+	font-family: "Courier";
+	font-size: 18px;
+	background: #f3f3f3;
+	border: 1px solid #e0e0e0;
+	padding: 12px;
+	font-weight: normal;
+	width: 80%;
+	align: center;
+	color: #222222;
+	}
+	
+.prebox1 {
+	margin: auto;
+	font-family: "verdana";
+	font-size: 14px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-weight: normal;
+	width: 80%;
+	align: center;
+	line-height: 150%;
+	color: #555555;
+	}
+	
