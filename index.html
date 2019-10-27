@@ -3,17 +3,72 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-	
-<p>
-  This is onkar
-  IBM
-</p>
 
-This is a text
-</html>
-
-
-
-<div class=code>
-	James
+<div class=top1 >
+	Docker install on Ubuntu and basic commands
 </div>
+
+<div class=top2 >
+	Install Docker
+</div>
+
+<pre class=prebox1 >
+Log on to the system as root before performing these steps.
+
+1. Apt update:
+</pre>
+<div class=codebox1 >
+	# apt-get update
+</div>
+
+<pre class=prebox1 >
+2. Remove the old version of docker:
+</pre>
+<div class=codebox1 >
+	# apt-get remove docker docker-engine docker.io -y
+</div>
+
+<pre class=prebox1 >
+3. Add the key:
+</pre>
+<div class=codebox1 >
+	 # curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+</div>
+
+<pre class=prebox1 >
+4. Add the repo:
+</pre>
+<div class=codebox1 >
+	# sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+</div>
+
+<pre class=prebox1 >
+5. Apt update:
+</pre>
+<div class=codebox1 >
+	# apt-get update
+</div>
+
+<pre class=prebox1 >
+6. Install docker-ce edition:
+</pre>
+<div class=codebox1 >
+	 # apt-get install docker-ce -y
+</div>
+
+<pre class=prebox1 >
+7. Enable docker service:
+</pre>
+<div class=codebox1 >
+	 # systemctl enable docker
+</div>
+
+<pre class=prebox1 >
+8. Restart docker service:
+</pre>
+<div class=codebox1 >
+	  # systemctl restart docker
+</div>
+
+
+</html>
